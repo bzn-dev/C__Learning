@@ -1,13 +1,11 @@
 #include <iostream>
 #include <string>
+// std::   ||   using namespace std;
 
-using namespace std;
+const double pi = 3.1415;
 
-int main(int argc, char** argv)
+int main()
 {
-
-    string salve = "Salve";
-    cout << "Hello World!\n";
-    cout << salve;
+    std::cout << pi;
     return 0;
 }
